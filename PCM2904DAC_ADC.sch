@@ -33011,7 +33011,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U-V" value="12MHz"/>
 <part name="X1" library="con-berg" deviceset="PN61729" device="" value="V+, D-, D+, GND"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="E2-5" value="100u "/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" value="100u "/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="22"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="22"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="0.1u"/>
@@ -33020,8 +33020,8 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="CPOL-EU" device="E2-4" value="10u"/>
-<part name="C9" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" value="10u"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u"/>
+<part name="C9" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
@@ -33040,9 +33040,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="64W" package3d_urn="urn:adsk.eagle:package:23748/1"/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="153CLV-0505"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u"/>
+<part name="C8" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1"/>
@@ -33064,14 +33064,14 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="64W" package3d_urn="urn:adsk.eagle:package:23748/1"/>
-<part name="C17" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1"/>
+<part name="C17" library="rcl" deviceset="CPOL-EU" device="153CLV-0505"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C1206" value="0.1u"/>
-<part name="C19" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" value="10u"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -33709,7 +33709,8 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="111,1,129.54,-2.54,GND,,,,,"/>
+<approved hash="208,1,-40.64,45.72,+3V3,out,,,,"/>
+<approved hash="208,1,-27.94,48.26,+3V3,sup,,,,"/>
 </errors>
 </schematic>
 </drawing>
