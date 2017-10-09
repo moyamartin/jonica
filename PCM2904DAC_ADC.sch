@@ -8138,6 +8138,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:23402/1" type="box" library_version="2">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="C-EU">
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
@@ -33014,7 +33021,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E2-4" value="10u"/>
-<part name="C9" library="rcl" deviceset="CPOL-EU" device="E2-4" value="10u"/>
+<part name="C9" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" value="10u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
@@ -33033,9 +33040,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="64W" package3d_urn="urn:adsk.eagle:package:23748/1"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0810" package3d_urn="urn:adsk.eagle:package:23401/1"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
-<part name="C8" library="rcl" deviceset="CPOL-EU" device="E2-4" value="10u"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1"/>
@@ -33050,21 +33057,21 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C10" library="rcl" deviceset="CPOL-EU" device="E2-4" value="10u"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u"/>
 <part name="X3" library="con-lumberg" library_urn="urn:adsk.eagle:library:163" deviceset="1503_09" device="" package3d_urn="urn:adsk.eagle:package:8555/1"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="64W" package3d_urn="urn:adsk.eagle:package:23748/1"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0810" package3d_urn="urn:adsk.eagle:package:23401/1"/>
+<part name="C17" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C1206" value="0.1u"/>
-<part name="C19" library="rcl" deviceset="CPOL-EU" device="E2-4" value="10u"/>
+<part name="C19" library="rcl" deviceset="CPOL-EU" device="153CLV-0505" value="10u"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
