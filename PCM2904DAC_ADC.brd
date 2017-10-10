@@ -1966,7 +1966,7 @@ design rules under a new name.</description>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u" x="66.5647" y="36.0764" rot="MR180"/>
 <element name="C9" library="rcl" package="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/1" value="10u" x="52.9793" y="34.9197" rot="MR90"/>
 <element name="IC2" library="bt_regulator" package="SO08" value="" x="45.7194" y="13.7175" rot="MR270"/>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1" value="2.65V, 2mA" x="35.0837" y="11.4572" rot="MR180"/>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1" value="2.65V, 2mA" x="35.1091" y="11.4572" rot="MR180"/>
 <element name="PCM2904" library="PCM2904" package="SSOP28" value="" x="66.0242" y="27.23715625" rot="MR90"/>
 <element name="Q1" library="crystal" package="HC49U-V" value="12MHz" x="75.7022" y="27.45605625" rot="MR90">
 <attribute name="MF" value="" x="75.7022" y="27.45605625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2164,7 +2164,7 @@ design rules under a new name.</description>
 <signal name="N$25">
 <contactref element="R8" pad="1"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="35.1068" y1="14.7303" x2="35.0837" y2="12.5072" width="0.6096" layer="16"/>
+<wire x1="35.1068" y1="14.7303" x2="35.1091" y2="12.5072" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$41">
 <contactref element="R12" pad="1"/>
@@ -2355,8 +2355,8 @@ design rules under a new name.</description>
 <wire x1="2.5712" y1="37.846" x2="2.5712" y2="52.959" width="0.6096" layer="16"/>
 <wire x1="2.5712" y1="37.846" x2="2.5712" y2="21.6916" width="0.6096" layer="16"/>
 <wire x1="2.5712" y1="21.6916" x2="6.6819" y2="17.5809" width="0.6096" layer="16"/>
-<wire x1="19.0785" y1="37.728" x2="2.6384" y2="37.7788" width="0.6096" layer="16"/>
-<wire x1="2.6384" y1="37.7788" x2="2.5712" y2="37.846" width="0.6096" layer="16"/>
+<wire x1="19.0785" y1="37.728" x2="2.6384" y2="37.7534" width="0.6096" layer="16"/>
+<wire x1="2.6384" y1="37.7534" x2="2.5712" y2="37.846" width="0.6096" layer="16"/>
 <wire x1="19.18073125" y1="42.2509" x2="19.18073125" y2="41.00523125" width="0.6096" layer="16"/>
 <wire x1="19.18073125" y1="41.00523125" x2="19.0785" y2="37.728" width="0.6096" layer="16"/>
 <wire x1="20.83173125" y1="24.9077" x2="20.83173125" y2="23.21353125" width="0.6096" layer="16"/>
